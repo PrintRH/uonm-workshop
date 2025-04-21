@@ -32,7 +32,7 @@ contract UoNMBroker is Ownable {
         // Check if vendor has enough tokens to sell
         require(address(this).balance >= amountOfEthToSeller, "Insufficient liquidity in Vendor to perform sale");
 
-        bool success = uonmToken.transferFrom(msg.sender, address(this), amountOfUonmTokensToSell);
+        bool success = uonmToken.transfer(address(this), amountOfUonmTokensToSell);
         require(success, "Failed to transfer token to vendor");
         payable(msg.sender).transfer(amountOfEthToSeller);
         emit SellUonmTokens(msg.sender, amountOfUonmTokensToSell, amountOfEthToSeller);
