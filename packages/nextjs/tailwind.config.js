@@ -4,6 +4,7 @@ module.exports = {
   plugins: [require("daisyui")],
   darkTheme: "dark",
   darkMode: ["selector", "[data-theme='dark']"],
+  // DaisyUI theme colors
   daisyui: {
     themes: [
       {
@@ -24,10 +25,18 @@ module.exports = {
           success: "#34EEB6",
           warning: "#FFCF72",
           error: "#FF8863",
+
           "--rounded-btn": "9999rem",
-          ".tooltip": { "--tooltip-tail": "6px" },
-          ".link": { textUnderlineOffset: "2px" },
-          ".link:hover": { opacity: "80%" },
+
+          ".tooltip": {
+            "--tooltip-tail": "6px",
+          },
+          ".link": {
+            textUnderlineOffset: "2px",
+          },
+          ".link:hover": {
+            opacity: "80%",
+          },
         },
       },
       {
@@ -40,26 +49,39 @@ module.exports = {
           "accent-content": "#F9FBFF",
           neutral: "#F9FBFF",
           "neutral-content": "#385183",
-          "base-100": "#385183",
-          "base-200": "#2A3655",
-          "base-300": "#212638",
+          "base-100": "#000000",
+          "base-200": "#000000",
+          "base-300": "#090A0A",
           "base-content": "#F9FBFF",
           info: "#385183",
           success: "#34EEB6",
           warning: "#FFCF72",
           error: "#FF8863",
+
           "--rounded-btn": "9999rem",
-          ".tooltip": { "--tooltip-tail": "6px", "--tooltip-color": "oklch(var(--p))" },
-          ".link": { textUnderlineOffset: "2px" },
-          ".link:hover": { opacity: "80%" },
+
+          ".tooltip": {
+            "--tooltip-tail": "6px",
+            "--tooltip-color": "oklch(var(--p))",
+          },
+          ".link": {
+            textUnderlineOffset: "2px",
+          },
+          ".link:hover": {
+            opacity: "80%",
+          },
         },
       },
     ],
   },
   theme: {
     extend: {
-      boxShadow: { center: "0 0 12px -2px rgb(0 0 0 / 0.05)" },
-      animation: { "pulse-fast": "pulse 1s cubic-bezier(0.4, 0, 0.6, 1) infinite" },
+      boxShadow: {
+        center: "0 0 12px -2px rgb(0 0 0 / 0.05)",
+      },
+      animation: {
+        "pulse-fast": "pulse 1s cubic-bezier(0.4, 0, 0.6, 1) infinite",
+      },
     },
   },
 };
