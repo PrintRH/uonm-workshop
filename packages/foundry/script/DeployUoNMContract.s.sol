@@ -29,5 +29,6 @@ contract DeployUoNMContract is ScaffoldETHDeploy {
         UoNMToken uonmToken = new UoNMToken();
         UoNMBroker uonmBroker = new UoNMBroker(address(uonmToken));
         uonmToken.transfer(address(uonmBroker), 1000000 ether);
+        uonmBroker.updateUonmTokenBalance();
     }
 }
