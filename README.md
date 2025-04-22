@@ -6,6 +6,7 @@
 ![broker tab](./assets/token-broker.png)
 
 🌟 Visit the demo app [here](https://workshop-app-sage.vercel.app/)!
+🌐 Hosted in IPFS [here](https://community.bgipfs.com/ipfs/bafybeiedomelcbf5nbevvzmnaaramsbl2ssh5subxdoikp237mnrlccfhm)!
 
 # 🏗️ Scaffold-ETH 2 x Scroll
 
