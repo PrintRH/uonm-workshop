@@ -1,4 +1,13 @@
-# 🏗 Scaffold-ETH 2
+# 🏗 Token Broker Workshop Application
+## Proudly built using Scaffold-ETH 2
+
+👾 Simple ERC-20 token broker application built on Scroll sepolia testnet. This application provides a simple understanding of interacting with an application built on a blockchain.
+
+![broker tab](./assets/token-broker.png)
+
+🌟 Visit the demo app [here](https://workshop-app-sage.vercel.app/)!
+
+# 🏗️ Scaffold-ETH 2 x Scroll
 
 <h4 align="center">
   <a href="https://docs.scaffoldeth.io">Documentation</a> |
@@ -65,7 +74,6 @@ Run smart contract test with `yarn foundry:test`
 - Edit your smart contracts in `packages/foundry/contracts`
 - Edit your frontend homepage at `packages/nextjs/app/page.tsx`. For guidance on [routing](https://nextjs.org/docs/app/building-your-application/routing/defining-routes) and configuring [pages/layouts](https://nextjs.org/docs/app/building-your-application/routing/pages-and-layouts) checkout the Next.js documentation.
 - Edit your deployment scripts in `packages/foundry/script`
-
 
 ## Documentation
 
